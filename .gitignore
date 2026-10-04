@@ -1,0 +1,20 @@
+# Secrets and local configuration (no long-lived keys in code or configuration)
+.env
+.env.*
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# macOS
+.DS_Store
